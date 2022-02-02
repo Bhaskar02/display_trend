@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit.elements.image import image_to_url, MAXIMUM_CONTENT_WIDTH
 from PIL import Image
 
-img = 'https://raw.github.com/Bhaskar02/dengueapp/blob/main/data/images/2010.PNG')
+img = 'https://raw.githubusercontent.com/Bhaskar02/dengueapp/main/data/images/clip_image005.jpg'
 if img:
     test = Image.open(img)
     width, height = test.size  # width is needed for image_to_url()
