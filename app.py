@@ -1,7 +1,13 @@
-import cv2
+#import cv2
+import datetime
+from glob import glob
 import numpy as np
+import folium
+from folium import plugins
+from folium.plugins import HeatMap
+import pandas as pd
 import streamlit as st
-
+import leafmap.foliumap as leafmap
 from PIL import Image
 
 option = st.selectbox('Select the year',('2010', '2011', '2012','2013','2014','2015','2016'))
