@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 #	img = Image.open(image_file)
 #	return img
 option = st.selectbox('Select the year',('2010', '2011', '2012','2013','2014','2015','2016'))
-image = df['https://github.com/Bhaskar02/dengueapp/blob/main/data/images/2011.PNG'].to_string(index=False).lstrip()
+image = df['https://github.com/Bhaskar02/dengueapp/blob/main/data/images/2011.png'].to_string(index=False).lstrip()
 st.image(image)
 #st.image("https://github.com/Bhaskar02/dengueapp/blob/main/data/images/2011.png",width=500,use_column_width=500)
 #st.image(load_image('https://github.com/Bhaskar02/dengueapp/blob/main/data/images/2011.png'), caption='corelation '+option,width=500,use_column_width=500)
