@@ -8,12 +8,13 @@ import pandas as pd
 import streamlit as st
 import leafmap.foliumap as leafmap
 from PIL import Image
+import os
 import matplotlib.pyplot as plt
 #def load_image(image_file):
 #	img = Image.open(image_file)
 #	return img
 option = st.selectbox('Select the year',('2010', '2011', '2012','2013','2014','2015','2016'))
-a = Image.open('https://github.com/Bhaskar02/dengueapp/blob/main/data/images/2011.png')
+a = Image.open(os.path.join(r'https://github.com/Bhaskar02/dengueapp/blob/main/data/images/2011.png'))
 #a = Image.open('https://github.com/Bhaskar02/dengueapp/blob/main/data/images/2011.png')
 st.image("https://github.com/Bhaskar02/dengueapp/blob/main/data/images/2011.png")
 #st.image(load_image('https://github.com/Bhaskar02/dengueapp/blob/main/data/images/2011.png'), caption='corelation '+option,width=500,use_column_width=500)
