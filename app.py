@@ -17,7 +17,17 @@ col2.image(img1, caption='line  '+option, width=450,use_column_width=450)
 
 url = 'https://share.streamlit.io/bhaskar02/display_trend/main/app2.py'
 
-
+components.html(
+    """
+<html>
+<body>
+<button value="Analysing Trend" onclick="location.href='https://share.streamlit.io/bhaskar02/display_trend/main/app.py'" type="button" class="btn">
+					Analysing Trend
+					</button>
+<body>
+</html>
+"""
+)
     
 webbrowser.open("https://google.com") 
     
