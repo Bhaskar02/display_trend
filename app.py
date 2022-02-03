@@ -18,5 +18,5 @@ url = 'https://share.streamlit.io/bhaskar02/display_trend/main/app2.py'
 
 if st.button('home',on_click=url):
     
-    webbrowser.open("https://google.com") 
-    #click.launch(url)
+    #webbrowser.open("https://google.com") 
+    click.launch(url)
