@@ -42,7 +42,7 @@ components.html(
 		
               position: absolute;
               top: 220px;
-              right: 29px;
+              right: 27px;
                padding: 10px;
                z-index: 400;
 			   }
