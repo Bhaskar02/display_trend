@@ -15,9 +15,9 @@ components.html(
         padding: 0 0 0 0;
       }
       .btn {
-	  background-color: red;
+	  background-color: #555555;
 	  border: none;
-	  color: blue;
+	  color: white;
 	  padding: 16px 40px;
 	  text-align: center;
 	  font-size: 14px;
