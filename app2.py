@@ -42,7 +42,7 @@ components.html(
 		
               position: absolute;
               top: 220px;
-              right: 27px;
+              right: 26px;
                padding: 10px;
                z-index: 400;
 			   }
@@ -210,21 +210,21 @@ components.html(
                         src="https://raw.githubusercontent.com/Bhaskar02/dengueapp/main/data/images/clip_image010.png"
                         alt="Description: Climatic Parameters"
                         width="80"
-                        height="60"
+                        height="80"
                     />
                     <br>
 					<img
                         src="https://raw.githubusercontent.com/Bhaskar02/dengueapp/main/data/images/clip_image012.png"
                         alt="Description: Analysing Trend"
                         width="80"
-                        height="60"
+                        height="80"
                     />
                     <br>
 					<img
                         src="https://raw.githubusercontent.com/Bhaskar02/dengueapp/main/data/images/clip_image014.png"
                         alt="Description: Dengue Hotspots"
                         width="80"
-                        height="60"
+                        height="80"
                     />
                     <br>
                     <img
