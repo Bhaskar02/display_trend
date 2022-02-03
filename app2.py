@@ -210,21 +210,21 @@ components.html(
                         src="https://raw.githubusercontent.com/Bhaskar02/dengueapp/main/data/images/clip_image010.png"
                         alt="Description: Climatic Parameters"
                         width="80"
-                        height="80"
+                        height="60"
                     />
                     <br>
 					<img
                         src="https://raw.githubusercontent.com/Bhaskar02/dengueapp/main/data/images/clip_image012.png"
                         alt="Description: Analysing Trend"
                         width="80"
-                        height="80"
+                        height="60"
                     />
                     <br>
 					<img
                         src="https://raw.githubusercontent.com/Bhaskar02/dengueapp/main/data/images/clip_image014.png"
                         alt="Description: Dengue Hotspots"
                         width="80"
-                        height="80"
+                        height="60"
                     />
                     <br>
                     <img
