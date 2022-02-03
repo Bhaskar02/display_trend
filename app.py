@@ -19,5 +19,5 @@ url = 'https://share.streamlit.io/bhaskar02/display_trend/main/app2.py'
 
 
     
- webbrowser.open("https://google.com") 
+webbrowser.open("https://google.com") 
     
