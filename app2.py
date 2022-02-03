@@ -42,7 +42,7 @@ components.html(
 		
               position: absolute;
               top: 220px;
-              right: 26px;
+              right: 25px;
                padding: 10px;
                z-index: 400;
 			   }
@@ -209,7 +209,7 @@ components.html(
 				     <img
                         src="https://raw.githubusercontent.com/Bhaskar02/dengueapp/main/data/images/clip_image010.png"
                         alt="Description: Climatic Parameters"
-                        width="80"
+                        width="70"
                         height="80"
                     />
                     <br>
