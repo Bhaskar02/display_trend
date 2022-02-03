@@ -7,6 +7,6 @@ col1, col2 = st.columns(2)
 img = 'https://raw.githubusercontent.com/Bhaskar02/display_trend/main/images/'+option+'.png'
 img1 = 'https://raw.githubusercontent.com/Bhaskar02/display_trend/main/lineplot/'+option+'.png'
 #st.image(img, caption='corelation '+option,width=400,use_column_width=400)
-col1.image(img, caption='corelation '+option, use_column_width=True)
+col1.image(img, caption='corelation '+option, width=450,use_column_width=450)
 #st.image(img1, caption='line'+option,width=400,use_column_width=400)
-col2.image(img1, caption='line  '+option, use_column_width=True)
+col2.image(img1, caption='line  '+option, width=450,use_column_width=450)
