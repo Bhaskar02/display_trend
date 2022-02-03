@@ -3,6 +3,7 @@ from streamlit.elements.image import image_to_url, MAXIMUM_CONTENT_WIDTH
 from PIL import Image
 import webbrowser
 import click
+import streamlit.components.v1 as components
 
 option = st.selectbox('Select the year',('2010', '2011', '2012','2013','2014','2015','2016','2017','2018'))
 col1, col2 = st.columns(2)
@@ -16,7 +17,7 @@ col2.image(img1, caption='line  '+option, width=450,use_column_width=450)
 
 url = 'https://share.streamlit.io/bhaskar02/display_trend/main/app2.py'
 
-if st.button('home'):
+
     
-    webbrowser.open("https://google.com") 
-    #click.launch(url)
+ webbrowser.open("https://google.com") 
+    
