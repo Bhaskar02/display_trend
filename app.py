@@ -12,7 +12,7 @@ col1.image(img, caption='corelation '+option, width=450,use_column_width=450)
 col2.image(img1, caption='line  '+option, width=450,use_column_width=450)
 
 
-url = 'https://www.streamlit.io/'
+url = 'https://share.streamlit.io/bhaskar02/display_trend/main/app2.py'
 
 if st.button('Open browser'):
     webbrowser.open_new_tab(url)
