@@ -17,6 +17,6 @@ col2.image(img1, caption='line  '+option, width=450,use_column_width=450)
 
 url = 'https://share.streamlit.io/bhaskar02/display_trend/main/app2.py'
 
-link = '[Home](www.iitkgpicps.co.in/home)'
+link = '[Home](https://sites.google.com/view/iitkgpicps/home?authuser=2)'
 st.markdown(link, unsafe_allow_html=True)
     
