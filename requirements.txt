@@ -4,4 +4,3 @@ keplergl
 streamlit
 streamlit-folium
 streamlit-keplergl
-
